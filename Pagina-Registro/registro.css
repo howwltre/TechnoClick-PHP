@@ -1,0 +1,68 @@
+/* Reseteo de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del main y la sección de registro */
+main {
+    padding: 20px;
+}
+
+.registro {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.registro label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registro input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.registro button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.registro button:hover {
+    background-color: #555;
+}
